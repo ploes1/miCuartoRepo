@@ -25,5 +25,5 @@ def get_superheroes_marvel():
 
 @app.get("/cursosPlatzi")
 def get_cursos():
-    rows = ["Docker", "Bash", "Linux", "Inglés", ...]
+    rows = ["Docker", "Bash", "Linux", "Inglés", "Python" , "Javascript", "Azure", "DevOps"]
     return rows
